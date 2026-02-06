@@ -1,0 +1,6 @@
+[
+  { "id": "coin-1", "coins": 10, "price": 1 },
+  { "id": "coin-2", "coins": 150, "price": 10 },
+  { "id": "coin-3", "coins": 500, "price": 20 },
+  { "id": "coin-4", "coins": 1000, "price": 35 }
+]

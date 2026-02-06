@@ -1,0 +1,71 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@plugin "daisyui/theme" {
+  name: "taskmint";
+  default: true;
+
+  --color-base-100: #f9fafb;
+  --color-base-200: #f3f4f6;
+  --color-base-300: #e5e7eb;
+  --color-base-content: #1e293b;
+
+  --color-primary: #5a716b;
+  --color-primary-content: #ffffff;
+
+  --color-secondary: #e6b980; /* soft beige */
+  --color-secondary-content: #1e1e1e;
+
+  --color-accent: #d97706; /* amber-600 */
+  --color-accent-content: #ffffff;
+
+  --color-neutral: #2e3d39; /* darkened primary for body text */
+  --color-neutral-content: #f9fafb;
+
+  --color-info: #3b82f6;
+  --color-info-content: #ffffff;
+
+  --color-success: #10b981;
+  --color-success-content: #ffffff;
+
+  --color-warning: #f59e0b;
+  --color-warning-content: #1e293b;
+
+  --color-error: #ef4444;
+  --color-error-content: #ffffff;
+}
+
+@plugin "daisyui/theme" {
+  name: "taskmintDark";
+  default: false;
+
+  --color-base-100: #1f2937;
+  --color-base-200: #374151;
+  --color-base-300: #4b5563;
+  --color-base-content: #f9fafb;
+
+  --color-primary: #7e938e; /* lighter version for dark bg contrast */
+  --color-primary-content: #1f2937;
+
+  --color-secondary: #facc99; /* soft warm beige */
+  --color-secondary-content: #1f2937;
+
+  --color-accent: #fbbf24; /* amber for pop */
+  --color-accent-content: #1f2937;
+
+  --color-neutral: #94a3b8; /* slate-400 */
+  --color-neutral-content: #1f2937;
+
+  --color-info: #60a5fa;
+  --color-info-content: #1f2937;
+
+  --color-success: #34d399;
+  --color-success-content: #1f2937;
+
+  --color-warning: #fbbf24;
+  --color-warning-content: #1f2937;
+
+  --color-error: #f87171;
+  --color-error-content: #1f2937;
+}
+
